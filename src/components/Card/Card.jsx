@@ -6,10 +6,10 @@ import { Tooltip } from "antd";
 
 
 const Card = ({item}) => {
-  // const {name, brand, price, sub_details, rating} = item;
+  const {name, brand, price, sub_details, rating} = item;
   return (
     <div className="group">
-      {/* <div className="card shadow-xl relative group-hover:shadow-2xl transition-transform">
+      <div className="card shadow-xl relative group-hover:shadow-2xl transition-transform">
         <figure>
           <img
             className="group-hover:scale-110 transition-transform "
@@ -35,7 +35,7 @@ const Card = ({item}) => {
         </div>
         <div className="card-body border">
           <h2 className="card-title">
-        <span className="text-black font-bold text-2xl">{name}</span>
+        <span className="text-black font-bold text-2xl h-14">{name}</span>
           </h2>
           <span> Brand: {brand}</span>
           <p className="text-slate-500">{sub_details}</p>
@@ -43,7 +43,7 @@ const Card = ({item}) => {
             <h3 className="text-3xl font-semibold text-blue-600">$ {price}</h3>
           </div>
         </div>
-      </div> */}
+      </div>
     </div>
   );
 };
