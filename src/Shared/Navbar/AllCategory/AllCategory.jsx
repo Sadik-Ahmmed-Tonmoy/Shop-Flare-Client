@@ -60,21 +60,20 @@ const AllCategory = () => {
             // Samsung
             getItem("Samsung", "sub4", <img className="h-3" src={samsungLogo} alt="" />, [ 
               getItem("Phone", "sub5", null, [
-                getItem("Button Phone", "showProducts/Samsung Button Phones"),
-                getItem("Smart Phones", "showProducts/Samsung Smart Phones"),
+                getItem("Button Phone", "showProducts/Button Phone"),
+                getItem("Smart Phones", "showProducts/Flagship"),
               ]),
               getItem("Tablets", "sub6", null, [
-                getItem("Galaxy Tab S series", "showProducts/Galaxy Tab S series"),
-                getItem("Galaxy Tab A series", "showProducts/Galaxy Tab A series"),
+                getItem("Galaxy Tab S series", "showProducts/Galaxy Tab S"),
+                getItem("Galaxy Tab A series", "showProducts/Galaxy Tab A"),
               ]),
-              getItem("Laptops", "showProducts/Laptops"),
               getItem("Galaxy Watch", "showProducts/Galaxy Watch"),
             ]),
 
             // Xiaomi
             getItem("Xiaomi", "sub7", <img className="h-6 ms-4" src={xiaomiLogo} alt="" />, [
               getItem("Mi Smartphones", "showProducts/Mi Smartphones"),
-              getItem("Mi TV", "showProducts/Mi TV"),
+              getItem("Mi TV", "showProducts/Mi TV Series"),
               getItem("Mi Band", "showProducts/Mi Band")
             ]),
           ]}

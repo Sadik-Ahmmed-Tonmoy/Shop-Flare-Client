@@ -79,7 +79,7 @@ const Navbar = () => {
                 </div>
               </div>
             </Link>
-            <div className="dropdown dropdown-end mx-2 z-10">
+            <div className="dropdown dropdown-end mx-1 z-10">
               <label tabIndex={0} className="btn btn-ghost btn-circle">
                 <div className="indicator">
                   <svg
@@ -210,7 +210,9 @@ const Navbar = () => {
             data-aos-duration="1000"
             className="flex gap-8 mt-2 ms-5 z-10"
           >
-            <DropDownBtn title={"Home"} to={"/"} />
+            <Link to={"/"}>
+              <span className="flex items-center mt-2 font-semibold">Home</span>
+            </Link>
             <DropDownBtn
               title={"Phones"}
               to={"/dashboard/phones"}

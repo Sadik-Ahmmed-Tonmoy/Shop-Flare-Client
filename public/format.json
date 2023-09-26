@@ -1,0 +1,1406 @@
+[
+  {
+    "name": "iPhone 14 Pro",
+    "brand": "Apple",
+    "category": "Phone",
+    "product": "iPhone",
+    "price": 1099,
+    "image1": "example",
+    "image2": "example",
+    "sub_details": "5G cellular connectivity, 6.1-inch Super Retina XDR display, A16 Bionic chip",
+    "storage_options": [
+      {
+        "capacity": "128GB",
+        "price": 1099
+      },
+      {
+        "capacity": "256GB",
+        "price": 1199
+      },
+      {
+        "capacity": "512GB",
+        "price": 1399
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2023,
+    "display_size": "6.1 inches",
+    "main_features": [
+      "Super Retina XDR display",
+      "ProMotion technology",
+      "Triple-camera system",
+      "A16 Bionic chip",
+      "5G connectivity"
+    ],
+    "details": "The iPhone 14 Pro, released in 2023, is the latest addition to the iPhone series. It features a 6.1-inch Super Retina XDR display with ProMotion technology for smoother scrolling and enhanced visuals. The device is powered by the A16 Bionic chip, offering impressive performance. It boasts a versatile triple-camera system for exceptional photography and 5G connectivity for fast data speeds. Available in 128GB, 256GB, and 512GB storage options, the iPhone 14 Pro sets a new standard for premium smartphones."
+  },
+  {
+    "name": "iPhone 13 Pro",
+    "brand": "Apple",
+    "category": "Phone",
+    "product": "iPhone",
+    "image1": "example",
+    "image2": "example",
+    "price": 999,
+    "sub_details": "5G cellular connectivity, 6.1-inch Super Retina XDR display, A15 Bionic chip",
+    "storage_options": [
+      {
+        "capacity": "128GB",
+        "price": 999
+      },
+      {
+        "capacity": "256GB",
+        "price": 1099
+      },
+      {
+        "capacity": "512GB",
+        "price": 1299
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2021,
+    "display_size": "6.1 inches",
+    "main_features": [
+      "Super Retina XDR display",
+      "ProMotion technology",
+      "Triple-camera system",
+      "A15 Bionic chip",
+      "5G connectivity"
+    ],
+    "details": "The iPhone 13 Pro, launched in 2021, is known for its exceptional performance and photography capabilities. It features a 6.1-inch Super Retina XDR display with ProMotion technology for smoother visuals. Powered by the A15 Bionic chip, it offers impressive speed and efficiency. The device boasts a versatile triple-camera system and 5G connectivity for high-speed data. Available in 128GB, 256GB, and 512GB storage options, the iPhone 13 Pro is a top choice for professionals and enthusiasts alike."
+  },
+  {
+    "name": "iPhone 12 Pro",
+    "brand": "Apple",
+    "category": "Phone",
+    "product": "iPhone",
+    "image1": "example",
+    "image2": "example",
+    "price": 999,
+    "sub_details": "5G cellular connectivity, 6.1-inch Super Retina XDR display, A14 Bionic chip",
+    "storage_options": [
+      {
+        "capacity": "128GB",
+        "price": 999
+      },
+      {
+        "capacity": "256GB",
+        "price": 1099
+      },
+      {
+        "capacity": "512GB",
+        "price": 1299
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2020,
+    "display_size": "6.1 inches",
+    "main_features": [
+      "Super Retina XDR display",
+      "Triple-camera system",
+      "A14 Bionic chip",
+      "5G connectivity"
+    ],
+    "details": "The iPhone 12 Pro, released in 2020, marked the transition to 5G connectivity in the iPhone lineup. It features a 6.1-inch Super Retina XDR display and is powered by the A14 Bionic chip for excellent performance. With a versatile triple-camera system, it excels in photography and video recording. Available in 128GB, 256GB, and 512GB storage options, the iPhone 12 Pro is a powerful and capable device."
+  },
+  {
+    "name": "iPhone 11 Pro",
+    "brand": "Apple",
+    "category": "Phone",
+    "image1": "example",
+    "image2": "example",
+    "product": "iPhone",
+    "price": 999,
+    "sub_details": "4G cellular connectivity, 5.8-inch Super Retina XDR display, A13 Bionic chip",
+    "storage_options": [
+      {
+        "capacity": "64GB",
+        "price": 999
+      },
+      {
+        "capacity": "256GB",
+        "price": 1149
+      },
+      {
+        "capacity": "512GB",
+        "price": 1349
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2019,
+    "display_size": "5.8 inches",
+    "main_features": [
+      "Super Retina XDR display",
+      "Triple-camera system",
+      "A13 Bionic chip",
+      "4G LTE connectivity"
+    ],
+    "details": "The iPhone 11 Pro, introduced in 2019, was praised for its camera capabilities and performance. It featured a 5.8-inch Super Retina XDR display and was powered by the A13 Bionic chip. With a versatile triple-camera system, it excelled in photography and offered impressive 4G LTE connectivity. Available in 64GB, 256GB, and 512GB storage options, the iPhone 11 Pro set a high standard for mobile photography."
+  },
+  {
+    "name": "iPhone X",
+    "brand": "Apple",
+    "category": "Phone",
+    "image1": "example",
+    "image2": "example",
+    "product": "iPhone",
+    "price": 999,
+    "sub_details": "4G cellular connectivity, 5.8-inch Super Retina display, A11 Bionic chip",
+    "storage_options": [
+      {
+        "capacity": "64GB",
+        "price": 999
+      },
+      {
+        "capacity": "256GB",
+        "price": 1149
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2017,
+    "display_size": "5.8 inches",
+    "main_features": [
+      "Super Retina display",
+      "Face ID",
+      "A11 Bionic chip",
+      "Dual-camera system"
+    ],
+    "details": "The iPhone X, released in 2017, marked a significant design overhaul for the iPhone. It featured a 5.8-inch Super Retina display, Face ID facial recognition, and the powerful A11 Bionic chip. The dual-camera system improved photography capabilities. Available in 64GB and 256GB storage options, the iPhone X was a milestone in iPhone history."
+  },
+  {
+    "name": "MacBook Pro 16-inch (2021)",
+    "brand": "Apple",
+    "category": "Laptop",
+    "product": "MacBook Pro",
+    "image1": "example",
+    "image2": "example",
+    "price": 2399,
+    "sub_details": "16-inch Retina XDR display, Apple M1 Pro chip, 16GB RAM, 512GB SSD",
+    "storage_options": [
+      {
+        "capacity": "512GB",
+        "price": 2399
+      },
+      {
+        "capacity": "1TB",
+        "price": 2699
+      },
+      {
+        "capacity": "2TB",
+        "price": 2999
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2021,
+    "display_size": "16 inches",
+    "main_features": [
+      "Retina XDR display with ProMotion",
+      "Apple M1 Pro chip with 10-core CPU",
+      "16GB unified memory",
+      "512GB ultra-fast SSD",
+      "Magic Keyboard with Touch Bar"
+    ],
+    "details": "The MacBook Pro 16-inch (2021) is a powerhouse designed for professionals and creatives. It boasts a stunning 16-inch Retina XDR display with ProMotion technology for fluid visuals. Under the hood, it features the Apple M1 Pro chip with a 10-core CPU, delivering exceptional performance for demanding tasks. With 16GB of unified memory and a fast 512GB SSD, it offers seamless multitasking and rapid data access. The MacBook Pro 16-inch also includes the Magic Keyboard with a Touch Bar for added functionality. It is available in multiple storage configurations, including 512GB, 1TB, and 2TB options."
+  },
+  {
+    "name": "MacBook Pro 13-inch (2021)",
+    "brand": "Apple",
+    "category": "Laptop",
+    "product": "MacBook Pro",
+    "image1": "example",
+    "image2": "example",
+    "price": 1999,
+    "sub_details": "13-inch Retina display, Apple M1 chip, 8GB RAM, 256GB SSD",
+    "storage_options": [
+      {
+        "capacity": "256GB",
+        "price": 1999
+      },
+      {
+        "capacity": "512GB",
+        "price": 2299
+      },
+      {
+        "capacity": "1TB",
+        "price": 2599
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.9,
+    "release_year": 2021,
+    "display_size": "13 inches",
+    "main_features": [
+      "Retina display with True Tone",
+      "Apple M1 chip with 8-core CPU",
+      "8GB unified memory",
+      "256GB ultra-fast SSD",
+      "Magic Keyboard"
+    ],
+    "details": "The MacBook Pro 13-inch (2021) is a powerful and compact laptop designed for professionals and creatives. It features a stunning 13-inch Retina display with True Tone technology, providing vibrant and accurate colors. The laptop is powered by the Apple M1 chip with an 8-core CPU, delivering exceptional performance and efficiency. With 8GB of unified memory and a fast 256GB SSD, it offers seamless multitasking and rapid data access. The MacBook Pro 13-inch also features the Magic Keyboard for a comfortable typing experience. It is available in multiple storage configurations, including 256GB, 512GB, and 1TB options."
+  },
+  {
+    "name": "MacBook Pro 14-inch (2021)",
+    "brand": "Apple",
+    "category": "Laptop",
+    "product": "MacBook Pro",
+    "image1": "example",
+    "image2": "example",
+    "price": 1999,
+    "sub_details": "14-inch Liquid Retina XDR display, Apple M1 Pro chip, 16GB RAM, 512GB SSD",
+    "storage_options": [
+      {
+        "capacity": "512GB",
+        "price": 1999
+      },
+      {
+        "capacity": "1TB",
+        "price": 2299
+      },
+      {
+        "capacity": "2TB",
+        "price": 2599
+      }
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2021,
+    "display_size": "14 inches",
+    "main_features": [
+      "Liquid Retina XDR display with ProMotion",
+      "Apple M1 Pro chip with 10-core CPU",
+      "16GB unified memory",
+      "512GB ultra-fast SSD",
+      "Magic Keyboard with Touch Bar"
+    ],
+    "details": "The MacBook Pro 14-inch (2021) offers a perfect blend of power and portability. It features a stunning 14-inch Liquid Retina XDR display with ProMotion technology for smooth visuals. Under the hood, it is powered by the Apple M1 Pro chip with a 10-core CPU, providing top-notch performance for demanding tasks. With 16GB of unified memory and a fast 512GB SSD, it offers a seamless user experience. The MacBook Pro 14-inch also includes the Magic Keyboard with a Touch Bar for enhanced functionality. It is available in multiple storage configurations, including 512GB, 1TB, and 2TB options."
+  },
+  {
+    "name": "Apple Watch Series 7",
+    "brand": "Apple",
+    "category": "Wearable",
+    "image1": "example",
+    "image2": "example",
+    "product": "Apple Watch",
+    "price": 399,
+    "sub_details": "41mm case, GPS + Cellular, Always-On Retina display",
+    "color_options": ["Silver", "Space Gray", "Gold", "Blue", "Green", "Red"],
+    "return_policies": "14 days return policy",
+    "rating": 4.7,
+    "release_year": 2021,
+    "main_features": [
+      "Always-On Retina display",
+      "ECG and Blood Oxygen monitoring",
+      "Fitness and health tracking",
+      "GPS and Cellular connectivity",
+      "Water-resistant"
+    ],
+    "details": "The Apple Watch Series 7 is the latest addition to Apple's lineup of smartwatches. It features a sleek 41mm case and an Always-On Retina display, making it easy to check notifications and track your fitness activities. With ECG and Blood Oxygen monitoring, it provides valuable health insights. The watch offers a wide range of fitness and health tracking features, including workouts, heart rate monitoring, and sleep tracking. It supports GPS and Cellular connectivity, allowing you to stay connected even when your iPhone is not nearby. The Apple Watch Series 7 is water-resistant and available in various attractive colors, including Silver, Space Gray, Gold, Blue, Green, and Red."
+  },
+  {
+    "name": "Apple Watch SE",
+    "brand": "Apple",
+    "category": "Wearable",
+    "image1": "example",
+    "image2": "example",
+    "product": "Apple Watch",
+    "price": 279,
+    "sub_details": "40mm case, GPS, Retina display",
+    "color_options": ["Silver", "Space Gray", "Gold"],
+    "return_policies": "14 days return policy",
+    "rating": 4.6,
+    "release_year": 2020,
+    "main_features": [
+      "Retina display",
+      "Fitness and health tracking",
+      "GPS",
+      "Water-resistant"
+    ],
+    "details": "The Apple Watch SE offers a great balance of features and affordability. It features a 40mm case with a Retina display for clear visuals. While it lacks advanced health sensors like ECG, it still provides comprehensive fitness and health tracking capabilities. With built-in GPS, it can track your workouts and activities accurately. The watch is water-resistant and comes in attractive colors, including Silver, Space Gray, and Gold."
+  },
+  {
+    "name": "Apple Watch Series 6",
+    "brand": "Apple",
+    "category": "Wearable",
+    "image1": "example",
+    "image2": "example",
+    "product": "Apple Watch",
+    "price": 399,
+    "sub_details": "44mm case, GPS + Cellular, Always-On Retina display",
+    "color_options": ["Silver", "Space Gray", "Gold", "Blue", "Product(RED)"],
+    "return_policies": "14 days return policy",
+    "rating": 4.8,
+    "release_year": 2020,
+    "main_features": [
+      "Always-On Retina display",
+      "ECG and Blood Oxygen monitoring",
+      "Fitness and health tracking",
+      "GPS and Cellular connectivity",
+      "Water-resistant"
+    ],
+    "details": "The Apple Watch Series 6 is a premium smartwatch with a larger 44mm case and an Always-On Retina display. It offers advanced health features like ECG and Blood Oxygen monitoring, making it a valuable tool for monitoring your well-being. The watch excels in fitness and health tracking and supports GPS and Cellular connectivity. It's water-resistant and available in attractive colors, including Silver, Space Gray, Gold, Blue, and Product(RED)."
+  },
+  {
+    "name": "MacBook Air (2021)",
+    "brand": "Apple",
+    "category": "Laptop",
+    "image1": "example",
+    "image2": "example",
+    "product": "MacBook Air",
+    "price": 999,
+    "sub_details": "13.3-inch Retina display, Apple M1 chip, 8GB RAM, 256GB SSD",
+    "color_options": ["Silver", "Space Gray", "Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.9,
+    "release_year": 2021,
+    "main_features": [
+      "Retina display with True Tone",
+      "Apple M1 chip with 8-core CPU",
+      "8GB unified memory",
+      "256GB ultra-fast SSD",
+      "Magic Keyboard"
+    ],
+    "details": "The MacBook Air (2021) is a sleek and lightweight laptop that packs a punch. It features a stunning 13.3-inch Retina display with True Tone technology for vibrant and accurate visuals. Powered by the Apple M1 chip with an 8-core CPU, it delivers remarkable performance and energy efficiency. With 8GB of unified memory and a fast 256GB SSD, it offers seamless multitasking and rapid data access. The MacBook Air also includes the Magic Keyboard for a comfortable typing experience. It is available in Silver, Space Gray, and Gold."
+  },
+  {
+    "name": "MacBook Air (2020)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Laptop",
+    "product": "MacBook Air",
+    "price": 949,
+    "sub_details": "13.3-inch Retina display, Intel Core i5, 8GB RAM, 256GB SSD",
+    "color_options": ["Silver", "Space Gray", "Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "Retina display with True Tone",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "256GB SSD",
+      "Magic Keyboard"
+    ],
+    "details": "The MacBook Air (2020) was a significant update to Apple's laptop lineup. It featured a 13.3-inch Retina display with True Tone technology for clear and vibrant visuals. Powered by an Intel Core i5 processor, it offered reliable performance. With 8GB of RAM and a 256GB SSD, it provided ample storage and responsiveness. The MacBook Air also featured the comfortable Magic Keyboard. It was available in Silver, Space Gray, and Gold."
+  },
+  {
+    "name": "MacBook Air (2019)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Laptop",
+    "product": "MacBook Air",
+    "price": 1099,
+    "sub_details": "13.3-inch Retina display, Intel Core i5, 8GB RAM, 512GB SSD",
+    "color_options": ["Silver", "Space Gray", "Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2019,
+    "main_features": [
+      "Retina display with True Tone",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "512GB SSD",
+      "Magic Keyboard"
+    ],
+    "details": "The MacBook Air (2019) brought improvements to Apple's lightweight laptop. It featured a 13.3-inch Retina display with True Tone for enhanced visuals. Powered by an Intel Core i5 processor, it offered reliable performance for everyday tasks. With 8GB of RAM and a spacious 512GB SSD, it provided ample storage and responsiveness. The MacBook Air also included the comfortable Magic Keyboard. It was available in Silver, Space Gray, and Gold."
+  },
+  {
+    "name": "MacBook Air (2018)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Laptop",
+    "product": "MacBook Air",
+    "price": 1199,
+    "sub_details": "13.3-inch Retina display, Intel Core i5, 8GB RAM, 256GB SSD",
+    "color_options": ["Silver", "Space Gray", "Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2018,
+    "main_features": [
+      "Retina display with True Tone",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "256GB SSD",
+      "Butterfly Keyboard"
+    ],
+    "details": "The MacBook Air (2018) marked a shift to Retina displays and slim design. It featured a 13.3-inch Retina display with True Tone for improved visuals. Powered by an Intel Core i5 processor, it offered good performance for everyday tasks. With 8GB of RAM and a 256GB SSD, it provided responsive multitasking and storage. The MacBook Air (2018) featured the Butterfly Keyboard and was available in Silver, Space Gray, and Gold."
+  },
+  {
+    "name": "MacBook Air (2017)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Laptop",
+    "product": "MacBook Air",
+    "price": 999,
+    "sub_details": "13.3-inch non-Retina display, Intel Core i5, 8GB RAM, 128GB SSD",
+    "color_options": ["Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.4,
+    "release_year": 2017,
+    "main_features": [
+      "Non-Retina display",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "128GB SSD",
+      "Traditional Keyboard"
+    ],
+    "details": "The MacBook Air (2017) was known for its slim and lightweight design. It featured a 13.3-inch non-Retina display and was powered by an Intel Core i5 processor, providing reliable performance for everyday tasks. With 8GB of RAM and a 128GB SSD, it offered basic multitasking and storage. The MacBook Air (2017) featured a traditional keyboard and was available in Silver."
+  },
+  {
+    "name": "iMac 24-inch (2021)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 1299,
+    "sub_details": "24-inch 4.5K Retina display, Apple M1 chip, 8GB RAM, 256GB SSD",
+    "color_options": [
+      "Blue",
+      "Green",
+      "Pink",
+      "Silver",
+      "Yellow",
+      "Orange",
+      "Purple"
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2021,
+    "main_features": [
+      "4.5K Retina display",
+      "Apple M1 chip with 8-core CPU",
+      "8GB unified memory",
+      "256GB ultra-fast SSD",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac 24-inch (2021) is a vibrant and powerful desktop computer. It boasts a stunning 24-inch 4.5K Retina display that's perfect for creative work and entertainment. With the Apple M1 chip featuring an 8-core CPU, it delivers impressive performance and energy efficiency. The iMac comes with 8GB of unified memory and a fast 256GB SSD, ensuring smooth multitasking and rapid data access. It also features a FaceTime HD camera for high-quality video calls. Available in a range of attractive colors, including Blue, Green, Pink, Silver, Yellow, Orange, and Purple."
+  },
+  {
+    "name": "iMac 27-inch (2020)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 1799,
+    "sub_details": "27-inch 5K Retina display, Intel Core i7, 16GB RAM, 512GB SSD",
+    "color_options": ["Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "5K Retina display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "512GB SSD",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac 27-inch (2020) offers a stunning 5K Retina display and powerful performance. It's equipped with an Intel Core i7 processor, 16GB of RAM, and a spacious 512GB SSD for fast and efficient computing. The large 27-inch screen is perfect for content creators and professionals. It also features a FaceTime HD camera for video calls. The iMac 27-inch is available in Silver."
+  },
+  {
+    "name": "iMac 21.5-inch (2019)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 1099,
+    "sub_details": "21.5-inch Retina 4K display, Intel Core i5, 8GB RAM, 256GB SSD",
+    "color_options": ["Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2019,
+    "main_features": [
+      "Retina 4K display",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "256GB SSD",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac 21.5-inch (2019) is a compact desktop with a Retina 4K display. It's powered by an Intel Core i5 processor, 8GB of RAM, and a fast 256GB SSD for responsive performance. The 21.5-inch screen offers sharp visuals for both work and entertainment. It includes a FaceTime HD camera for video calls and is available in Silver."
+  },
+  {
+    "name": "iMac Pro",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 4999,
+    "sub_details": "27-inch 5K Retina display, Intel Xeon W, 32GB RAM, 1TB SSD",
+    "color_options": ["Space Gray"],
+    "return_policies": "30 days return policy",
+    "rating": 4.9,
+    "release_year": 2017,
+    "main_features": [
+      "5K Retina display",
+      "Intel Xeon W processor",
+      "32GB RAM",
+      "1TB SSD",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac Pro is a powerhouse designed for professional users. It features a 27-inch 5K Retina display and is powered by an Intel Xeon W processor, 32GB of RAM, and a 1TB SSD for exceptional performance and storage capacity. The iMac Pro is available in Space Gray and includes a FaceTime HD camera for video conferencing."
+  },
+  {
+    "name": "iMac 21.5-inch (2017)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 1099,
+    "sub_details": "21.5-inch Retina 4K display, Intel Core i5, 8GB RAM, 1TB HDD",
+    "color_options": ["Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2017,
+    "main_features": [
+      "Retina 4K display",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "1TB HDD",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac 21.5-inch (2017) features a Retina 4K display and is powered by an Intel Core i5 processor, 8GB of RAM, and a spacious 1TB HDD. While it lacks an SSD, it offers ample storage capacity. The 21.5-inch screen provides vibrant visuals, and it includes a FaceTime HD camera for video calls. The iMac 21.5-inch (2017) is available in Silver."
+  },
+  {
+    "name": "iMac 27-inch (2015)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 1799,
+    "sub_details": "27-inch Retina 5K display, Intel Core i7, 16GB RAM, 1TB Fusion Drive",
+    "color_options": ["Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.4,
+    "release_year": 2015,
+    "main_features": [
+      "Retina 5K display",
+      "Intel Core i7 processor",
+      "16GB RAM",
+      "1TB Fusion Drive",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac 27-inch (2015) offers a large Retina 5K display and is powered by an Intel Core i7 processor, 16GB of RAM, and a spacious 1TB Fusion Drive. The Fusion Drive combines the speed of an SSD with the capacity of an HDD. The iMac 27-inch (2015) provides stunning visuals and includes a FaceTime HD camera for video chats. It is available in Silver."
+  },
+  {
+    "name": "iMac 21.5-inch (2015)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Desktop",
+    "product": "iMac",
+    "price": 1099,
+    "sub_details": "21.5-inch Retina 4K display, Intel Core i5, 8GB RAM, 1TB HDD",
+    "color_options": ["Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.3,
+    "release_year": 2015,
+    "main_features": [
+      "Retina 4K display",
+      "Intel Core i5 processor",
+      "8GB RAM",
+      "1TB HDD",
+      "FaceTime HD camera"
+    ],
+    "details": "The iMac 21.5-inch (2015) features a Retina 4K display and is powered by an Intel Core i5 processor, 8GB of RAM, and a spacious 1TB HDD. While it lacks an SSD, it provides ample storage capacity. The 21.5-inch screen delivers sharp visuals and includes a FaceTime HD camera for video calls. The iMac 21.5-inch (2015) is available in Silver."
+  },
+  {
+    "name": "AirPods Pro (2021)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Audio",
+    "product": "AirPods Pro",
+    "price": 249,
+    "sub_details": "Active Noise Cancellation, Spatial Audio, Wireless Charging",
+    "color_options": ["White"],
+    "return_policies": "14 days return policy",
+    "rating": 4.9,
+    "release_year": 2021,
+    "main_features": [
+      "Active Noise Cancellation",
+      "Spatial Audio",
+      "Wireless Charging",
+      "Sweat and Water Resistance"
+    ],
+    "details": "The AirPods Pro (2021) are the latest offering in Apple's wireless earbuds lineup. They feature Active Noise Cancellation for immersive sound quality and a focus on your audio. With Spatial Audio, you can enjoy a surround sound experience. The earbuds support wireless charging and have a sweat and water-resistant design, making them suitable for workouts and outdoor activities. Available in classic White."
+  },
+  {
+    "name": "AirPods Pro (2020)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Audio",
+    "product": "AirPods Pro",
+    "price": 249,
+    "sub_details": "Active Noise Cancellation, Spatial Audio, Wireless Charging",
+    "color_options": ["White"],
+    "return_policies": "14 days return policy",
+    "rating": 4.8,
+    "release_year": 2020,
+    "main_features": [
+      "Active Noise Cancellation",
+      "Spatial Audio",
+      "Wireless Charging",
+      "Sweat and Water Resistance"
+    ],
+    "details": "The AirPods Pro (2020) introduced Active Noise Cancellation to Apple's wireless earbuds lineup. They offer Spatial Audio for an immersive audio experience and support wireless charging. The earbuds are sweat and water-resistant, making them ideal for an active lifestyle. Available in classic White."
+  },
+  {
+    "name": "AirPods Pro (2019)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Audio",
+    "product": "AirPods Pro",
+    "price": 249,
+    "sub_details": "Active Noise Cancellation, Wireless Charging",
+    "color_options": ["White"],
+    "return_policies": "14 days return policy",
+    "rating": 4.7,
+    "release_year": 2019,
+    "main_features": [
+      "Active Noise Cancellation",
+      "Wireless Charging",
+      "Sweat and Water Resistance"
+    ],
+    "details": "The AirPods Pro (2019) brought Active Noise Cancellation to Apple's wireless earbuds lineup. They also support wireless charging and have a sweat and water-resistant design, making them versatile for various activities. Available in classic White."
+  },
+  {
+    "name": "AirPods Pro (2018)",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Audio",
+    "product": "AirPods Pro",
+    "price": 249,
+    "sub_details": "Active Noise Cancellation, Wireless Charging",
+    "color_options": ["White"],
+    "return_policies": "14 days return policy",
+    "rating": 4.6,
+    "release_year": 2018,
+    "main_features": [
+      "Active Noise Cancellation",
+      "Wireless Charging",
+      "Sweat and Water Resistance"
+    ],
+    "details": "The AirPods Pro (2018) marked the debut of Active Noise Cancellation in Apple's wireless earbuds lineup. They support wireless charging and are designed to be sweat and water-resistant, ensuring durability during workouts and outdoor activities. Available in classic White."
+  },
+  {
+    "name": "AirPods Max",
+    "brand": "Apple",
+    "image1": "example",
+    "image2": "example",
+    "category": "Audio",
+    "product": "AirPods Max",
+    "price": 549,
+    "sub_details": "Active Noise Cancellation, Hi-Res Audio, Over-Ear Design",
+    "color_options": ["Silver", "Space Gray", "Sky Blue", "Green", "Pink"],
+    "return_policies": "14 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "Active Noise Cancellation",
+      "Hi-Res Audio",
+      "Over-Ear Design",
+      "Spatial Audio",
+      "Smart Case"
+    ],
+    "details": "The AirPods Max redefine over-ear headphones with premium sound quality and advanced features. They feature Active Noise Cancellation for immersive audio experiences and support Hi-Res Audio for exceptional clarity. With an over-ear design, they provide comfort and a secure fit. The headphones also support Spatial Audio for a surround sound experience and come with a convenient Smart Case. Available in Silver, Space Gray, Sky Blue, Green, and Pink."
+  },
+  {
+    "name": "Samsung E1200",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Mobile Phone",
+    "product": "Button Phone",
+    "price": 29.99,
+    "sub_details": "1.52-inch Display, Dual SIM, FM Radio",
+    "color_options": ["Black", "White"],
+    "return_policies": "30 days return policy",
+    "rating": 4.2,
+    "release_year": 2013,
+    "main_features": [
+      "Compact and Lightweight",
+      "Long Battery Life",
+      "Durable Build"
+    ],
+    "details": "The Samsung E1200 is a basic button phone designed for simplicity and reliability. It features a 1.52-inch display and supports dual SIM cards, making it suitable for travelers. The phone includes an FM radio for entertainment and offers a compact and lightweight design. With a long-lasting battery and a durable build, it's an ideal choice for those seeking a basic mobile phone. Available in Black and White."
+  },
+  {
+    "name": "Samsung E2232",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Mobile Phone",
+    "product": "Button Phone",
+    "price": 39.99,
+    "sub_details": "1.8-inch Display, Dual SIM, Music Player",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.0,
+    "release_year": 2012,
+    "main_features": ["Music Player", "Dual SIM Support", "Long Battery Life"],
+    "details": "The Samsung E2232 is a feature-rich button phone that includes a 1.8-inch display and supports dual SIM cards for convenience. It also comes with a built-in music player, making it a great choice for music enthusiasts. With its long battery life, it's suitable for extended use. The phone is available in Black."
+  },
+  {
+    "name": "Samsung Guru Music 2",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Mobile Phone",
+    "product": "Button Phone",
+    "price": 29.99,
+    "sub_details": "2-inch Display, Dual SIM, FM Radio, Torchlight",
+    "color_options": ["Black", "White"],
+    "return_policies": "30 days return policy",
+    "rating": 4.3,
+    "release_year": 2014,
+    "main_features": [
+      "FM Radio with Recording",
+      "Torchlight",
+      "Long Battery Life"
+    ],
+    "details": "The Samsung Guru Music 2 is a button phone designed for music lovers. It features a 2-inch display and supports dual SIM cards. The phone comes with an FM radio that supports recording and a handy torchlight. With its long battery life, it's perfect for users in areas with limited access to charging. Available in Black and White."
+  },
+  {
+    "name": "Samsung B313E",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Mobile Phone",
+    "product": "Button Phone",
+    "price": 34.99,
+    "sub_details": "2-inch Display, Dual SIM, Camera, FM Radio",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.1,
+    "release_year": 2015,
+    "main_features": ["Camera", "FM Radio", "Long-lasting Battery"],
+    "details": "The Samsung B313E is a button phone that features a 2-inch display and supports dual SIM cards. It includes a basic camera for capturing moments on the go and an FM radio for entertainment. With its long-lasting battery, it's a reliable companion for everyday use. Available in Black."
+  },
+  {
+    "name": "Samsung Metro XL",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Mobile Phone",
+    "product": "Button Phone",
+    "price": 49.99,
+    "sub_details": "2.8-inch Display, Dual SIM, FM Radio, Torchlight",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2016,
+    "main_features": [
+      "Large Display",
+      "Dual SIM Support",
+      "Torchlight",
+      "FM Radio"
+    ],
+    "details": "The Samsung Metro XL is a button phone with a large 2.8-inch display, making it easy to read messages and navigate menus. It supports dual SIM cards and includes an FM radio for entertainment on the go. The built-in torchlight is a handy feature for various situations. The phone is available in Black."
+  },
+  {
+    "name": "Samsung E1207T",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Mobile Phone",
+    "product": "Button Phone",
+    "price": 27.99,
+    "sub_details": "1.52-inch Display, Dual SIM, FM Radio",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.0,
+    "release_year": 2013,
+    "main_features": [
+      "Compact Design",
+      "Dual SIM Support",
+      "Long Battery Life"
+    ],
+    "details": "The Samsung E1207T is a compact button phone that features a 1.52-inch display and supports dual SIM cards. It includes an FM radio for entertainment and offers a long battery life, making it an excellent choice for basic mobile communication. Available in Black."
+  },
+  {
+    "name": "Samsung Galaxy S21 Ultra",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Flagship",
+    "price": 1199.99,
+    "sub_details": "6.8-inch Dynamic AMOLED 2X display, Exynos 2100/Qualcomm Snapdragon 888, 12GB RAM, 128GB Storage, 108MP Camera",
+    "color_options": ["Phantom Black", "Phantom Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2021,
+    "main_features": [
+      "Ultra-High Resolution Camera",
+      "5G Connectivity",
+      "S Pen Support",
+      "Large AMOLED Display",
+      "Powerful Performance"
+    ],
+    "details": "The Samsung Galaxy S21 Ultra is a flagship smartphone known for its exceptional camera capabilities. It features a massive 108MP camera and a 6.8-inch Dynamic AMOLED 2X display for stunning visuals. Powered by the Exynos 2100 or Qualcomm Snapdragon 888 chipset, it offers powerful performance and 5G connectivity. The S Pen support adds versatility to this premium device. Available in Phantom Black and Phantom Silver."
+  },
+  {
+    "name": "Samsung Galaxy S21+",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Flagship",
+    "price": 999.99,
+    "sub_details": "6.7-inch Dynamic AMOLED 2X display, Exynos 2100/Qualcomm Snapdragon 888, 8GB RAM, 128GB Storage, Triple Camera",
+    "color_options": ["Phantom Black", "Phantom Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2021,
+    "main_features": [
+      "Dynamic AMOLED Display",
+      "Triple Camera System",
+      "5G Connectivity",
+      "High-Performance Processor"
+    ],
+    "details": "The Samsung Galaxy S21+ is a premium flagship smartphone with a 6.7-inch Dynamic AMOLED 2X display and a versatile triple camera system. It is powered by the Exynos 2100 or Qualcomm Snapdragon 888 chipset for high-performance computing and 5G connectivity. The device is available in Phantom Black and Phantom Silver."
+  },
+  {
+    "name": "Samsung Galaxy Note 20 Ultra",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Flagship",
+    "price": 1299.99,
+    "sub_details": "6.9-inch Dynamic AMOLED 2X display, Exynos 990/Qualcomm Snapdragon 865+, 12GB RAM, 128GB Storage, S Pen Support",
+    "color_options": ["Mystic Bronze", "Mystic Black", "Mystic White"],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2020,
+    "main_features": [
+      "Large Dynamic AMOLED Display",
+      "S Pen Integration",
+      "Triple Camera System",
+      "High RAM Capacity",
+      "5G Support"
+    ],
+    "details": "The Samsung Galaxy Note 20 Ultra is a flagship smartphone designed for productivity and creativity. It features a massive 6.9-inch Dynamic AMOLED 2X display and comes with S Pen support for precise input. With a powerful Exynos 990 or Qualcomm Snapdragon 865+ chipset, it offers high-performance computing and 5G support. Available in Mystic Bronze, Mystic Black, and Mystic White."
+  },
+  {
+    "name": "Samsung Galaxy S20 Ultra",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Flagship",
+    "price": 1399.99,
+    "sub_details": "6.9-inch Dynamic AMOLED 2X display, Exynos 990/Qualcomm Snapdragon 865, 12GB RAM, 128GB Storage, Quad Camera",
+    "color_options": ["Cosmic Black", "Cosmic Gray"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "Ultra-High Resolution Camera",
+      "Large AMOLED Display",
+      "5G Connectivity",
+      "High RAM Capacity"
+    ],
+    "details": "The Samsung Galaxy S20 Ultra is a flagship smartphone known for its camera capabilities, featuring a 108MP camera. It boasts a 6.9-inch Dynamic AMOLED 2X display for stunning visuals and comes with either the Exynos 990 or Qualcomm Snapdragon 865 chipset. With 5G connectivity and ample RAM, it offers high-performance capabilities. Available in Cosmic Black and Cosmic Gray."
+  },
+  {
+    "name": "Samsung Galaxy S21",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Flagship",
+    "price": 799.99,
+    "sub_details": "6.2-inch Dynamic AMOLED 2X display, Exynos 2100/Qualcomm Snapdragon 888, 8GB RAM, 128GB Storage, Triple Camera",
+    "color_options": [
+      "Phantom Gray",
+      "Phantom White",
+      "Phantom Pink",
+      "Phantom Violet"
+    ],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2021,
+    "main_features": [
+      "Dynamic AMOLED Display",
+      "Triple Camera System",
+      "5G Connectivity",
+      "High-Performance Processor"
+    ],
+    "details": "The Samsung Galaxy S21 is a flagship smartphone with a 6.2-inch Dynamic AMOLED 2X display and a versatile triple camera system. It is powered by the Exynos 2100 or Qualcomm Snapdragon 888 chipset for high-performance computing and 5G connectivity. The device is available in Phantom Gray, Phantom White, Phantom Pink, and Phantom Violet."
+  },
+  {
+    "name": "Samsung Galaxy Z Fold 3",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Flagship",
+    "price": 1799.99,
+    "sub_details": "7.6-inch Dynamic AMOLED 2X Foldable Display, Exynos 2100/Qualcomm Snapdragon 888, 12GB RAM, 256GB Storage, S Pen Support",
+    "color_options": ["Phantom Black", "Phantom Silver", "Phantom Green"],
+    "return_policies": "30 days return policy",
+    "rating": 4.9,
+    "release_year": 2021,
+    "main_features": [
+      "Foldable Dynamic AMOLED Display",
+      "S Pen Integration",
+      "Triple Camera System",
+      "High RAM Capacity",
+      "5G Support"
+    ],
+    "details": "The Samsung Galaxy Z Fold 3 is a flagship foldable smartphone that offers a unique folding Dynamic AMOLED 2X display experience. It comes with S Pen support for productivity and creativity. Powered by the Exynos 2100 or Qualcomm Snapdragon 888 chipset, it offers high performance and 5G support. Available in Phantom Black, Phantom Silver, and Phantom Green."
+  },
+  {
+    "name": "Samsung Galaxy Tab S7+",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Tablet",
+    "product": "Galaxy Tab S",
+    "price": 849.99,
+    "sub_details": "12.4-inch Super AMOLED Display, Snapdragon 865+, 8GB RAM, 128GB Storage, S Pen Included",
+    "color_options": ["Mystic Black", "Mystic Silver", "Mystic Bronze"],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2020,
+    "main_features": [
+      "Super AMOLED Display",
+      "S Pen Included",
+      "Powerful Snapdragon Processor",
+      "Large RAM and Storage"
+    ],
+    "details": "The Samsung Galaxy Tab S7+ is a premium tablet featuring a stunning 12.4-inch Super AMOLED display. It includes an S Pen for productivity and creativity. Powered by the Snapdragon 865+ processor and equipped with 8GB of RAM and 128GB of storage, it offers powerful performance. Available in Mystic Black, Mystic Silver, and Mystic Bronze."
+  },
+  {
+    "name": "Samsung Galaxy Tab S6 Lite",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Tablet",
+    "product": "Galaxy Tab S",
+    "price": 349.99,
+    "sub_details": "10.4-inch TFT Display, Exynos 9611, 4GB RAM, 64GB Storage, S Pen Included",
+    "color_options": ["Angora Blue", "Chiffon Pink", "Oxford Gray"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "S Pen Included",
+      "Large Display",
+      "Exynos Processor",
+      "Ample RAM and Storage"
+    ],
+    "details": "The Samsung Galaxy Tab S6 Lite is a versatile tablet with a 10.4-inch TFT display. It comes with an included S Pen for precise input. Powered by the Exynos 9611 chipset and featuring 4GB of RAM and 64GB of storage, it offers a balance of performance and affordability. Available in Angora Blue, Chiffon Pink, and Oxford Gray."
+  },
+  {
+    "name": "Samsung Galaxy Tab A7",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Tablet",
+    "product": "Galaxy Tab A",
+    "price": 229.99,
+    "sub_details": "10.4-inch TFT Display, Snapdragon 662, 3GB RAM, 32GB Storage",
+    "color_options": ["Dark Gray", "Silver", "Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2020,
+    "main_features": [
+      "Large Display",
+      "Affordable Price",
+      "Decent Performance",
+      "Family Entertainment"
+    ],
+    "details": "The Samsung Galaxy Tab A7 is an affordable tablet with a 10.4-inch TFT display, making it ideal for family entertainment. It is powered by the Snapdragon 662 chipset and offers 3GB of RAM and 32GB of storage. Available in Dark Gray, Silver, and Gold."
+  },
+  {
+    "name": "Samsung Galaxy Tab S5e",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Tablet",
+    "product": "Galaxy Tab A",
+    "price": 399.99,
+    "sub_details": "10.5-inch Super AMOLED Display, Snapdragon 670, 4GB RAM, 64GB Storage",
+    "color_options": ["Black", "Silver", "Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2019,
+    "main_features": [
+      "Super AMOLED Display",
+      "Slim and Lightweight",
+      "Good Performance",
+      "Premium Design"
+    ],
+    "details": "The Samsung Galaxy Tab S5e is a slim and lightweight tablet featuring a 10.5-inch Super AMOLED display. It is powered by the Snapdragon 670 chipset and offers 4GB of RAM and 64GB of storage. Known for its premium design and display quality, it is available in Black, Silver, and Gold."
+  },
+  {
+    "name": "Samsung Galaxy Tab Active3",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Tablet",
+    "product": "Galaxy Tab A",
+    "price": 489.99,
+    "sub_details": "8-inch TFT Display, Exynos 9810, 4GB RAM, 64GB Storage, Rugged Design",
+    "color_options": ["Militarized Version"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2020,
+    "main_features": [
+      "Rugged Design",
+      "Water and Dust Resistance",
+      "S Pen Support",
+      "Enhanced Durability"
+    ],
+    "details": "The Samsung Galaxy Tab Active3 is a rugged tablet designed for tough environments. It features an 8-inch TFT display and is powered by the Exynos 9810 chipset with 4GB of RAM and 64GB of storage. With water and dust resistance, it's suitable for outdoor use. Available in a militarized version."
+  },
+  {
+    "name": "Samsung Galaxy Tab S7 FE",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Tablet",
+    "product": "Galaxy Tab S",
+    "price": 499.99,
+    "sub_details": "12.4-inch TFT Display, Snapdragon 750G, 4GB RAM, 64GB Storage",
+    "color_options": ["Mystic Black", "Mystic Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2021,
+    "main_features": [
+      "Large TFT Display",
+      "S Pen Support",
+      "Affordable Price",
+      "Decent Performance"
+    ],
+    "details": "The Samsung Galaxy Tab S7 FE is a tablet that offers a large 12.4-inch TFT display and comes with S Pen support for creative tasks. It is powered by the Snapdragon 750G chipset and offers 4GB of RAM and 64GB of storage. Available in Mystic Black and Mystic Silver."
+  },
+  {
+    "name": "Samsung Galaxy Watch 4",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartwatch",
+    "product": "Galaxy Watch",
+    "price": 249.99,
+    "sub_details": "40mm/44mm, AMOLED Display, Wear OS, Heart Rate Monitor, GPS",
+    "color_options": ["Black", "Silver", "Green", "Pink"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2021,
+    "main_features": [
+      "AMOLED Display",
+      "Wear OS",
+      "Heart Rate Monitoring",
+      "Built-in GPS",
+      "Water Resistance"
+    ],
+    "details": "The Samsung Galaxy Watch 4 is a versatile smartwatch available in two sizes: 40mm and 44mm. It features a vibrant AMOLED display and runs on Wear OS, providing access to a wide range of apps and features. The watch includes a heart rate monitor, built-in GPS, and water resistance for fitness tracking and outdoor activities. Available in Black, Silver, Green, and Pink."
+  },
+  {
+    "name": "Samsung Galaxy Watch Active 2",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartwatch",
+    "product": "Galaxy Watch",
+    "price": 199.99,
+    "sub_details": "40mm/44mm, AMOLED Display, Tizen OS, ECG Monitoring, GPS",
+    "color_options": ["Black", "Silver", "Rose Gold"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2019,
+    "main_features": [
+      "AMOLED Display",
+      "Tizen OS",
+      "ECG Monitoring",
+      "Built-in GPS",
+      "Fitness Tracking"
+    ],
+    "details": "The Samsung Galaxy Watch Active 2 is a sleek and lightweight smartwatch available in two sizes: 40mm and 44mm. It features an AMOLED display and runs on Tizen OS, offering a variety of fitness and health tracking features, including ECG monitoring. The watch includes built-in GPS and is available in Black, Silver, and Rose Gold."
+  },
+  {
+    "name": "Samsung Galaxy Watch 3",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartwatch",
+    "product": "Galaxy Watch",
+    "price": 249.99,
+    "sub_details": "41mm/45mm, AMOLED Display, Tizen OS, Blood Pressure Monitoring, GPS",
+    "color_options": ["Mystic Bronze", "Mystic Silver", "Mystic Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "AMOLED Display",
+      "Tizen OS",
+      "Blood Pressure Monitoring",
+      "Built-in GPS",
+      "Fitness Tracking"
+    ],
+    "details": "The Samsung Galaxy Watch 3 is a premium smartwatch available in two sizes: 41mm and 45mm. It features a stunning AMOLED display and runs on Tizen OS. The watch includes advanced health monitoring features like blood pressure monitoring and built-in GPS for accurate fitness tracking. Available in Mystic Bronze, Mystic Silver, and Mystic Black."
+  },
+  {
+    "name": "Samsung Galaxy Watch Active",
+    "brand": "Samsung",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartwatch",
+    "product": "Galaxy Watch",
+    "price": 179.99,
+    "sub_details": "40mm, AMOLED Display, Tizen OS, Fitness Tracking, GPS",
+    "color_options": ["Black", "Rose Gold", "Silver", "Green"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2019,
+    "main_features": [
+      "AMOLED Display",
+      "Tizen OS",
+      "Fitness Tracking",
+      "Built-in GPS",
+      "Sleek Design"
+    ],
+    "details": "The Samsung Galaxy Watch Active is a stylish and compact smartwatch with a 40mm AMOLED display. It runs on Tizen OS and is designed for fitness enthusiasts with features like fitness tracking and built-in GPS. The watch is available in Black, Rose Gold, Silver, and Green."
+  },
+  {
+    "name": "Xiaomi Mi 11",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Mi Smartphones",
+    "price": 699.99,
+    "sub_details": "6.81-inch AMOLED Display, Snapdragon 888, 8GB RAM, 128GB Storage, 108MP Camera",
+    "color_options": ["Midnight Gray", "Horizon Blue", "Frost White"],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2020,
+    "main_features": [
+      "High-Resolution Camera",
+      "Large AMOLED Display",
+      "Powerful Snapdragon 888",
+      "Fast Charging",
+      "5G Connectivity"
+    ],
+    "details": "The Xiaomi Mi 11 is a flagship smartphone known for its high-resolution 108MP camera and large 6.81-inch AMOLED display. It is powered by the Snapdragon 888 chipset, offering powerful performance and 5G connectivity. The phone supports fast charging and is available in Midnight Gray, Horizon Blue, and Frost White."
+  },
+  {
+    "name": "Xiaomi Redmi Note 10 Pro",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Mi Smartphones",
+    "price": 299.99,
+    "sub_details": "6.67-inch AMOLED Display, Snapdragon 732G, 6GB RAM, 128GB Storage, 64MP Camera",
+    "color_options": ["Glacial Blue", "Onyx Gray", "Gradient Bronze"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2021,
+    "main_features": [
+      "High-Resolution Camera",
+      "AMOLED Display",
+      "Power-Efficient Snapdragon 732G",
+      "Large Storage",
+      "Long Battery Life"
+    ],
+    "details": "The Xiaomi Redmi Note 10 Pro is a mid-range smartphone known for its high-resolution 64MP camera and vibrant 6.67-inch AMOLED display. It is powered by the Snapdragon 732G chipset, offering a balance of performance and efficiency. With ample RAM and storage, it provides a smooth experience. Available in Glacial Blue, Onyx Gray, and Gradient Bronze."
+  },
+  {
+    "name": "Xiaomi Poco X3 Pro",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Mi Smartphones",
+    "price": 249.99,
+    "sub_details": "6.67-inch IPS LCD Display, Snapdragon 860, 6GB RAM, 128GB Storage, 48MP Camera",
+    "color_options": ["Phantom Black", "Frost Blue"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2021,
+    "main_features": [
+      "High-Performance Snapdragon 860",
+      "Large Display",
+      "Ample RAM and Storage",
+      "48MP Camera",
+      "Fast Charging"
+    ],
+    "details": "The Xiaomi Poco X3 Pro is a performance-oriented smartphone with a 6.67-inch IPS LCD display and the powerful Snapdragon 860 chipset. It offers ample RAM and storage for multitasking and gaming. The phone features a 48MP camera and supports fast charging. Available in Phantom Black and Frost Blue."
+  },
+  {
+    "name": "Xiaomi Mi 10T Pro",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smartphone",
+    "product": "Mi Smartphones",
+    "price": 549.99,
+    "sub_details": "6.67-inch IPS LCD Display, Snapdragon 865, 8GB RAM, 128GB Storage, 108MP Camera",
+    "color_options": ["Cosmic Black", "Lunar Silver"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2020,
+    "main_features": [
+      "High-Resolution Camera",
+      "Fast Snapdragon 865",
+      "Ample RAM and Storage",
+      "Large Display",
+      "High Refresh Rate"
+    ],
+    "details": "The Xiaomi Mi 10T Pro is a flagship smartphone featuring a high-resolution 108MP camera and a 6.67-inch IPS LCD display with a high refresh rate. It is powered by the Snapdragon 865 chipset, offering fast performance. With ample RAM and storage, it's suitable for demanding tasks. Available in Cosmic Black and Lunar Silver."
+  },
+  {
+    "name": "Xiaomi Mi TV 4A",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smart TV",
+    "product": "Mi TV Series",
+    "price": 349.99,
+    "sub_details": "Full HD LED Display, 32-inch, PatchWall OS, Smart Features, Dolby Audio",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2020,
+    "main_features": [
+      "Full HD Display",
+      "Smart TV Features",
+      "Dolby Audio",
+      "Multiple HDMI and USB Ports",
+      "Voice Remote Control"
+    ],
+    "details": "The Xiaomi Mi TV 4A is a 32-inch Full HD LED smart TV known for its affordability and smart features. It runs on the PatchWall OS and offers access to various streaming apps. With Dolby Audio support, it provides an enhanced audiovisual experience. The TV includes multiple HDMI and USB ports for connectivity and comes with a voice remote control. Available in Black."
+  },
+  {
+    "name": "Xiaomi Mi TV 4K",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smart TV",
+    "product": "Mi TV Series",
+    "price": 549.99,
+    "sub_details": "4K Ultra HD LED Display, 55-inch, PatchWall OS, Smart Features, Dolby Vision, Dolby Atmos",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.8,
+    "release_year": 2021,
+    "main_features": [
+      "4K Ultra HD Display",
+      "Smart TV Features",
+      "Dolby Vision",
+      "Dolby Atmos",
+      "Voice Remote Control"
+    ],
+    "details": "The Xiaomi Mi TV 4K is a 55-inch 4K Ultra HD LED smart TV that delivers stunning visuals and audio quality. It runs on the PatchWall OS and offers a range of smart features. With Dolby Vision and Dolby Atmos support, it provides a cinematic viewing experience. The TV includes a voice remote control for convenience. Available in Black."
+  },
+  {
+    "name": "Xiaomi Mi TV QLED 75",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Smart TV",
+    "product": "Mi TV Series",
+    "price": 1999.99,
+    "sub_details": "75-inch QLED Display, 4K Ultra HD, Android TV, Smart Features, Dolby Vision, Dolby Atmos",
+    "color_options": ["Black"],
+    "return_policies": "30 days return policy",
+    "rating": 4.9,
+    "release_year": 2022,
+    "main_features": [
+      "QLED Display",
+      "4K Ultra HD Resolution",
+      "Android TV",
+      "Dolby Vision",
+      "Dolby Atmos",
+      "Voice Control"
+    ],
+    "details": "The Xiaomi Mi TV QLED 75 is a premium 75-inch QLED smart TV with 4K Ultra HD resolution. It runs on Android TV and offers a wide range of smart features. With Dolby Vision and Dolby Atmos support, it delivers a high-quality cinematic experience. The TV can be controlled using voice commands. Available in Black."
+  },
+  {
+    "name": "Xiaomi Mi Band 6",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Fitness Band",
+    "product": "Mi Band",
+    "price": 49.99,
+    "sub_details": "1.56-inch AMOLED Display, Heart Rate Monitor, Sleep Tracking, 14-Day Battery Life",
+    "color_options": ["Black", "Orange", "Yellow", "Olive"],
+    "return_policies": "30 days return policy",
+    "rating": 4.7,
+    "release_year": 2021,
+    "main_features": [
+      "Large AMOLED Display",
+      "Advanced Heart Rate Monitoring",
+      "Sleep Tracking",
+      "Long Battery Life",
+      "Water Resistance"
+    ],
+    "details": "The Xiaomi Mi Band 6 is a feature-rich fitness band with a 1.56-inch AMOLED display for clear visibility. It includes advanced heart rate monitoring, sleep tracking, and offers a remarkable 14-day battery life on a single charge. The band is water-resistant and comes in Black, Orange, Yellow, and Olive color options."
+  },
+  {
+    "name": "Xiaomi Mi Band 5",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Fitness Band",
+    "product": "Mi Band",
+    "price": 39.99,
+    "sub_details": "1.1-inch AMOLED Display, Heart Rate Monitor, Sleep Tracking, 14-Day Battery Life",
+    "color_options": ["Black", "Red", "Blue", "Green"],
+    "return_policies": "30 days return policy",
+    "rating": 4.6,
+    "release_year": 2020,
+    "main_features": [
+      "AMOLED Display",
+      "Heart Rate Monitoring",
+      "Sleep Analysis",
+      "Long Battery Life",
+      "Waterproof Design"
+    ],
+    "details": "The Xiaomi Mi Band 5 is a versatile fitness band with a 1.1-inch AMOLED display, heart rate monitoring, and sleep tracking features. It offers a 14-day battery life, making it ideal for continuous use. The band is waterproof and available in Black, Red, Blue, and Green colors."
+  },
+  {
+    "name": "Xiaomi Mi Band 4",
+    "brand": "Xiaomi",
+    "image1": "example",
+    "image2": "example",
+    "category": "Fitness Band",
+    "product": "Mi Band",
+    "price": 29.99,
+    "sub_details": "0.95-inch AMOLED Display, Heart Rate Monitor, Sleep Tracking, 20-Day Battery Life",
+    "color_options": ["Black", "Blue", "Pink", "Orange"],
+    "return_policies": "30 days return policy",
+    "rating": 4.5,
+    "release_year": 2019,
+    "main_features": [
+      "AMOLED Display",
+      "Heart Rate Monitoring",
+      "Sleep Tracking",
+      "Long Battery Life",
+      "Water Resistance"
+    ],
+    "details": "The Xiaomi Mi Band 4 is a budget-friendly fitness band with a 0.95-inch AMOLED display, heart rate monitoring, and sleep tracking capabilities. It boasts an impressive 20-day battery life on a single charge. The band is water-resistant and comes in Black, Blue, Pink, and Orange color options."
+  }
+]

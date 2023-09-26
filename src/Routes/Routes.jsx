@@ -3,8 +3,8 @@ import {
   } from "react-router-dom";
 import Main from "../Layout/Main/Main";
 import Home from "../Pages/Home/Home/Home";
-import Products from "../Layout/ShowProductsLayout/ShowProductsLayout";
-import ShowProducts from "../Layout/ShowProductsLayout/ShowProductsLayout";
+import ShowProductsLayout from "../Layout/ShowProductsLayout/ShowProductsLayout";
+import ShowProducts from "../Pages/ShowProducts/ShowProducts";
 
 export const router = createBrowserRouter([
     {
@@ -20,12 +20,12 @@ export const router = createBrowserRouter([
     },
     {
       path: "/showProducts",
-      element: <ShowProducts />,
+      element: <ShowProductsLayout/>,
     //   errorElement: <ErrorPage />,
       children: [
         {
-          path: "/showProducts/:category",
-          element: <Products />,
+          path: "/showProducts/:products",
+          element: <ShowProducts/>,
         },
       ],
     },

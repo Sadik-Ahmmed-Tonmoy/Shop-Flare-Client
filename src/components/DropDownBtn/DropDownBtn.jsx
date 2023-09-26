@@ -10,11 +10,11 @@ const DropDownBtn = ({ title, to, items }) => {
     <div>
       <div className="relative group w-min">
         <NavLink to={to}>
-          <span className='flex items-center mt-2'>{title}{items && <GoChevronDown/>}</span>
+          <span className='flex items-center mt-2 font-semibold'>{title}{items && <GoChevronDown/>}</span>
         </NavLink>
 
         <div className="py-2 w-1">
-          <ul data-aos="fade-up" className="absolute top-8 hidden pt-1 border first-letter:space-y-4 bg-white shadow-2xl rounded-md text-black group-hover:block px-4 ">
+          <ul data-aos="fade-up" className="absolute top-8 -left-10 hidden pt-1 border first-letter:space-y-4 bg-white shadow-2xl rounded-md text-black group-hover:block px-4 ">
             {items?.map((item, i) => (
               <Fade key={i} duration="1000">
                 {" "}
