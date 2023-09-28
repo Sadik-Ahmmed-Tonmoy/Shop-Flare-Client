@@ -4,9 +4,8 @@ import {
   NotificationOutlined,
   UserOutlined,
 } from "@ant-design/icons";
-import { Breadcrumb, Layout, Menu, theme } from "antd";
-import { Link } from "react-router-dom";
-import ShowProducts from "../../Pages/ShowProducts/ShowProducts";
+import { Breadcrumb, Layout, Menu, theme, Select } from "antd";
+import { Link, NavLink, Outlet, useParams } from "react-router-dom";
 const { Header, Content, Sider } = Layout;
 const items1 = ["1", "2", "3"].map((key) => ({
   key,
@@ -34,11 +33,13 @@ const ShowProductsLayout = () => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
+
+  const { products } = useParams();
   return (
-    <div>
-      <Layout className="h-screen">
+    <div className="relative">
+      <Layout className="min-h-screen">
         <Header
-          className="h-56"
+          className="h-40"
           style={{
             display: "flex",
           }}
@@ -73,9 +74,18 @@ const ShowProductsLayout = () => {
                 borderRight: 0,
               }}
             >
-              <Menu.Item key="1">
-                <Link to={"/dashboard"}>Dashboard</Link>
-              </Menu.Item>
+              <div className="sticky top-0">
+                <Menu.Item key="1" className="bg-blue-100 ">
+                  <NavLink
+                    className={({ isActive }) =>
+                      isActive ? "text-blue-600 font-bold" : ""
+                    }
+                    to={`/dashboard`}
+                  >
+                    <span className="mx-4 text-blue-600">example</span>
+                  </NavLink>
+                </Menu.Item>
+              </div>
             </Menu>
           </Sider>
           <Layout
@@ -83,15 +93,38 @@ const ShowProductsLayout = () => {
               padding: "0 24px 24px",
             }}
           >
-            <Breadcrumb
-              style={{
-                margin: "16px 0",
-              }}
-            >
-              <Breadcrumb.Item>Home</Breadcrumb.Item>
-              <Breadcrumb.Item>List</Breadcrumb.Item>
-              <Breadcrumb.Item>App</Breadcrumb.Item>
-            </Breadcrumb>
+            <div className=" flex items-center justify-between sticky top-0 bg-[#f5f5f5] z-10">
+              <Breadcrumb
+                style={{
+                  margin: "16px 0",
+                }}
+              >
+                <Breadcrumb.Item>
+                  <Link to={"/"}>Home</Link>
+                </Breadcrumb.Item>
+                <Breadcrumb.Item>{products}</Breadcrumb.Item>
+              </Breadcrumb>
+              <Select
+                defaultValue="Sort"
+                className="w-2/12 me-16"
+                // onChange={handleChange}
+                options={[
+                  {
+                    value: "Low To High",
+                    label: "Low To High",
+                  },
+                  {
+                    value: "High To Low",
+                    label: "High To Low",
+                  },
+                  {
+                    value: "disabled",
+                    label: "Disabled",
+                    disabled: true,
+                  },
+                ]}
+              />
+            </div>
             <Content
               style={{
                 padding: 24,
@@ -101,7 +134,8 @@ const ShowProductsLayout = () => {
               }}
             >
               {/* Content */}
-              <ShowProducts/>
+              <Outlet />
+              {/* Content */}
             </Content>
           </Layout>
         </Layout>

@@ -4,7 +4,9 @@ import {
 import Main from "../Layout/Main/Main";
 import Home from "../Pages/Home/Home/Home";
 import ShowProductsLayout from "../Layout/ShowProductsLayout/ShowProductsLayout";
-import ShowProducts from "../Pages/ShowProducts/ShowProducts";
+import ShowProducts from "../Pages/ShowProductPages/ShowProducts/ShowProducts";
+import ShowDetails from "../Pages/Home/ShowDetails/ShowDetails";
+import ShowByCategory from "../Pages/ShowProductPages/ShowByCategory/ShowByCategory";
 
 export const router = createBrowserRouter([
     {
@@ -16,6 +18,10 @@ export const router = createBrowserRouter([
           path: "/",
           element: <Home />,
         },
+        {
+          path: "/showDetails/:id",
+          element: <ShowDetails/>,
+        },
       ],
     },
     {
@@ -26,6 +32,10 @@ export const router = createBrowserRouter([
         {
           path: "/showProducts/:products",
           element: <ShowProducts/>,
+        },
+        {
+          path: "showByCategory/:category",
+          element: <ShowByCategory/>,
         },
       ],
     },

@@ -215,22 +215,22 @@ const Navbar = () => {
             </Link>
             <DropDownBtn
               title={"Phones"}
-              to={"/dashboard/phones"}
+              to={"/showProducts/showByCategory/Phone"}
               items={phones}
             />
             <DropDownBtn
               title={"Laptop"}
-              to={"/dashboard/laptop"}
+              to={"/showProducts/showByCategory/Laptop"}
               items={laptop}
             />
             <DropDownBtn
               title={"Drones"}
-              to={"/dashboard/drones"}
+              to={"/showProducts/showByCategory/Drone"}
               items={drones}
             />
             <DropDownBtn
               title={"Accessories"}
-              to={"/dashboard/accessories"}
+              to={"/showProducts/showByCategory/Accessories"}
               items={accessories}
             />
           </div>

@@ -11,17 +11,16 @@ const ClickDropDown = ({title, items}) => {
                     <ul>
                       {items?.map((item, i) => (
                         <Fade key={i} duration="1500">
-                          {" "}
                           <li className="my-2 md:w-28 rounded-md w-full">
                             <NavLink
                               className={({ isActive }) =>
                                 isActive ? "text-blue-600 font-bold" : ""
                               }
-                              to={`/dashboard/${item}`}
+                              to={`/showProducts/${item}`}
                             >
                               {item}
                             </NavLink>
-                          </li>{" "}
+                          </li>
                         </Fade>
                       ))}
                     </ul>
