@@ -6,19 +6,28 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 import navLogo from "../../assets/Logo/navLogo.png";
-import { Input } from "antd";
+import { Drawer, Input } from "antd";
 import useCart from "../../hooks/useCart";
 import AllCategory from "./AllCategory/AllCategory";
+import { useState } from "react";
 const { Search } = Input;
 const onSearch = (value) => console.log(value);
 
 const Navbar = () => {
-  const phones = ["Apple", "Samsung", "Xiaomi"];
+  const phones = ["iPhone", "Samsung", "Xiaomi"];
   const laptop = ["MacBook", "HP", "Lenovo", "Asus"];
   const drones = ["DJI"];
   const accessories = ["Headphones", "Chargers", "Data Cables"];
 
   const [cart] = useCart();
+
+  const [open, setOpen] = useState(false);
+  const showDrawer = () => {
+    setOpen(true);
+  };
+  const onClose = () => {
+    setOpen(false);
+  };
 
   return (
     <div className="sticky top-0 z-20">
@@ -153,7 +162,11 @@ const Navbar = () => {
                   </div>
                 </div>
               </Link>
-              <div className="dropdown dropdown-end mx-6 z-10">
+              {/* cart with drawer */}
+              <div
+                onClick={showDrawer}
+                className="dropdown dropdown-end mx-6 z-10"
+              >
                 <label tabIndex={0} className="btn btn-ghost btn-circle">
                   <div className="indicator">
                     <svg
@@ -175,28 +188,22 @@ const Navbar = () => {
                     </span>
                   </div>
                 </label>
-                <div
-                  tabIndex={0}
-                  className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-white shadow-2xl"
-                >
-                  <div className="card-body">
-                    <span className="font-bold text-lg text-black">
-                      Quantity: {cart?.length}
-                    </span>
-                    <span className="font-extrabold text-black">
-                      Subtotal: ${"roundedTotal"}
-                    </span>
-                    <div className="card-actions">
-                      <Link to="/dashboard/myCart">
-                        <button className="green-btn">View cart</button>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
               </div>
+              <Drawer
+                title="Basic Drawer"
+                placement="right"
+                onClose={onClose}
+                open={open}
+              >
+                <p>Some contents...</p>
+                <p>Some contents...</p>
+                <p>Some contents...</p>
+              </Drawer>
+              {/* cart with drawer */}
             </div>
           </div>
         </div>
+
         {/* 2nd col */}
         <div
           data-aos="fade-up"

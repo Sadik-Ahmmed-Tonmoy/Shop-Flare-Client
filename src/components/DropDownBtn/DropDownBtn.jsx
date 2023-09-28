@@ -23,7 +23,7 @@ const DropDownBtn = ({ title, to, items }) => {
                     className={({ isActive }) =>
                       isActive ? "text-blue-600 font-bold" : ""
                     }
-                    to={`/dashboard/${item}`}
+                    to={`showProducts/${item}`}
                   >
                     {item}
                   </NavLink>

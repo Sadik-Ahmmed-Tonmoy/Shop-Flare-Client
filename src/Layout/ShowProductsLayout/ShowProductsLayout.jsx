@@ -93,38 +93,6 @@ const ShowProductsLayout = () => {
               padding: "0 24px 24px",
             }}
           >
-            <div className=" flex items-center justify-between sticky top-0 bg-[#f5f5f5] z-10">
-              <Breadcrumb
-                style={{
-                  margin: "16px 0",
-                }}
-              >
-                <Breadcrumb.Item>
-                  <Link to={"/"}>Home</Link>
-                </Breadcrumb.Item>
-                <Breadcrumb.Item>{products}</Breadcrumb.Item>
-              </Breadcrumb>
-              <Select
-                defaultValue="Sort"
-                className="w-2/12 me-16"
-                // onChange={handleChange}
-                options={[
-                  {
-                    value: "Low To High",
-                    label: "Low To High",
-                  },
-                  {
-                    value: "High To Low",
-                    label: "High To Low",
-                  },
-                  {
-                    value: "disabled",
-                    label: "Disabled",
-                    disabled: true,
-                  },
-                ]}
-              />
-            </div>
             <Content
               style={{
                 padding: 24,
