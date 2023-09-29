@@ -221,23 +221,19 @@ const Navbar = () => {
               <span className="flex items-center mt-2 font-semibold">Home</span>
             </Link>
             <DropDownBtn
-              title={"Phones"}
-              to={"/showProducts/showByCategory/Phone"}
+              title={"Phone"}
               items={phones}
             />
             <DropDownBtn
               title={"Laptop"}
-              to={"/showProducts/showByCategory/Laptop"}
               items={laptop}
             />
             <DropDownBtn
-              title={"Drones"}
-              to={"/showProducts/showByCategory/Drone"}
+              title={"Drone"}
               items={drones}
             />
             <DropDownBtn
               title={"Accessories"}
-              to={"/showProducts/showByCategory/Accessories"}
               items={accessories}
             />
           </div>

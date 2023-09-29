@@ -48,7 +48,6 @@ const AllCategory = () => {
               getItem("Mac", "sub2", null, [
                 getItem("MacBook Air", "showProducts/MacBook Air"),
                 getItem("MacBook Pro", "showProducts/MacBook Pro"),
-                getItem("iMac", "showProducts/iMac"),
               ]),
               getItem("Apple Watch", "showProducts/Apple Watch"),
               getItem("AirPods", "sub3", null, [

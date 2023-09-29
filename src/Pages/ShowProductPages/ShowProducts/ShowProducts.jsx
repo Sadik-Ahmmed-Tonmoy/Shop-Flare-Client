@@ -1,22 +1,14 @@
-import axios from "axios";
-import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Card from "../../../components/Card/Card";
 import { Breadcrumb, Select } from "antd";
+import useProducts from "../../../hooks/useProducts";
 
 const ShowProducts = () => {
-  const { products } = useParams();
-  console.log(products);
-  const [items, setItems] = useState([]);
-  console.log(items);
+  const  item  = useParams();
 
-  useEffect(() => {
-    axios
-      .get(`http://localhost:5000/category/products/${products}`)
-      .then((response) => {
-        setItems(response.data);
-      });
-  }, [products]);
+  const [products] = useProducts(item?.products)
+  console.log(products);
+
   return (
     <div>
         <div className="px-10 flex items-center justify-between sticky top-0 bg-[#f5f5f5] z-10">
@@ -28,8 +20,8 @@ const ShowProducts = () => {
                 <Breadcrumb.Item>
                   <Link to={"/"}>Home</Link>
                 </Breadcrumb.Item>
-                <Breadcrumb.Item><Link to={`/showProducts/showByCategory/${items[0]?.category}`}>{items[0]?.category}</Link></Breadcrumb.Item>
-                <Breadcrumb.Item>{products}</Breadcrumb.Item>
+                <Breadcrumb.Item><Link to={`/showProducts/showByCategory/${products[0]?.category}`}>{products[0]?.category}</Link></Breadcrumb.Item>
+                <Breadcrumb.Item>{item?.products}</Breadcrumb.Item>
               </Breadcrumb>
               <Select
                 defaultValue="Sort"
@@ -53,7 +45,7 @@ const ShowProducts = () => {
               />
             </div>
       <div className="md:grid md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-8">
-        {items.map((item) => (
+        {products.map((item) => (
           <Card key={item._id} item={item} />
         ))}
       </div>

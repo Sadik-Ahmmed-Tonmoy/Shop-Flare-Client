@@ -5,11 +5,11 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
-const DropDownBtn = ({ title, to, items }) => {
+const DropDownBtn = ({ title, items }) => {
   return (
     <div>
       <div className="relative group w-min">
-        <NavLink to={to}>
+        <NavLink to={`/showProducts/showByCategory/${title}`}>
           <span className='flex items-center mt-2 font-semibold'>{title}{items && <GoChevronDown/>}</span>
         </NavLink>
 
