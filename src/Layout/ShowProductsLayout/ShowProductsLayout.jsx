@@ -4,8 +4,8 @@ import {
   NotificationOutlined,
   UserOutlined,
 } from "@ant-design/icons";
-import { Breadcrumb, Layout, Menu, theme, Select } from "antd";
-import { Link, NavLink, Outlet, useParams } from "react-router-dom";
+import { Layout, Menu, theme, } from "antd";
+import { NavLink, Outlet, } from "react-router-dom";
 const { Header, Content, Sider } = Layout;
 const items1 = ["1", "2", "3"].map((key) => ({
   key,
@@ -34,7 +34,6 @@ const ShowProductsLayout = () => {
     token: { colorBgContainer },
   } = theme.useToken();
 
-  const { products } = useParams();
   return (
     <div className="relative">
       <Layout className="min-h-screen">

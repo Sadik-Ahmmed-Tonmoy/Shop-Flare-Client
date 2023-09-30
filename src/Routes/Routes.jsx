@@ -25,16 +25,16 @@ export const router = createBrowserRouter([
       ],
     },
     {
-      path: "/showProducts",
+      path: "showProducts",
       element: <ShowProductsLayout/>,
     //   errorElement: <ErrorPage />,
       children: [
         {
-          path: "/showProducts/:products",
+          path: "showItems/:item",
           element: <ShowProducts/>,
         },
         {
-          path: "showByCategory/:products",
+          path: "showByCategory/:item",
           element: <ShowByCategory/>,
         },
       ],

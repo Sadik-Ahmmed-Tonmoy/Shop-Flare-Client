@@ -3,9 +3,22 @@ import { BsEye } from "react-icons/bs";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { Tooltip, Rate } from "antd";
 import { Link } from "react-router-dom";
+import { addToLocalStorage } from "../../utilities/addToLocalStorage";
+import Swal from "sweetalert2";
 
 const Card = ({ item }) => {
   const { _id, name, brand, price, sub_details, rating } = item;
+
+  const handleAddToCart = (id) => {
+    addToLocalStorage(id)
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Item added successfully',
+      showConfirmButton: false,
+      timer: 1500
+    })
+  }
   return (
     <div className="group">
       <div className="card shadow-xl relative group-hover:shadow-2xl transition-transform">
@@ -28,6 +41,7 @@ const Card = ({ item }) => {
             </Link>
             <Tooltip placement="left" title="Add To Cart">
               <AiOutlineShoppingCart
+              onClick={() => handleAddToCart(_id)}
                 size={40}
                 className="text-black hover:bg-blue-400 hover:text-white rounded-full p-2 cursor-pointer"
               />

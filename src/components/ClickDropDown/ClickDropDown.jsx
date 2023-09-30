@@ -16,7 +16,7 @@ const ClickDropDown = ({title, items}) => {
                               className={({ isActive }) =>
                                 isActive ? "text-blue-600 font-bold" : ""
                               }
-                              to={`/showProducts/${item}`}
+                              to={`showProducts/showItems/${item}`}
                             >
                               {item}
                             </NavLink>

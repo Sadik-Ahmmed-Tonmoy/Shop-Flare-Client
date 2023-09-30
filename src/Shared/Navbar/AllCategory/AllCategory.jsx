@@ -44,36 +44,36 @@ const AllCategory = () => {
           items={[
             // apple
             getItem("Apple", "sub1", <BsApple className="ms-4" size={22}/>, [
-              getItem("iPhone", "showProducts/iPhone"),
+              getItem("iPhone", "showProducts/showItems/iPhone"),
               getItem("Mac", "sub2", null, [
-                getItem("MacBook Air", "showProducts/MacBook Air"),
-                getItem("MacBook Pro", "showProducts/MacBook Pro"),
+                getItem("MacBook Air", "showProducts/showItems/MacBook Air"),
+                getItem("MacBook Pro", "showProducts/showItems/MacBook Pro"),
               ]),
-              getItem("Apple Watch", "showProducts/Apple Watch"),
+              getItem("Apple Watch", "showProducts/showItems/Apple Watch"),
               getItem("AirPods", "sub3", null, [
-                getItem("AirPods Pro", "showProducts/AirPods Pro"),
-                getItem("AirPods Max", "showProducts/AirPods Max"),
+                getItem("AirPods Pro", "showProducts/showItems/AirPods Pro"),
+                getItem("AirPods Max", "showProducts/showItems/AirPods Max"),
               ]),
             ]),
             
             // Samsung
             getItem("Samsung", "sub4", <img className="h-3" src={samsungLogo} alt="" />, [ 
               getItem("Phone", "sub5", null, [
-                getItem("Button Phone", "showProducts/Button Phone"),
-                getItem("Smart Phones", "showProducts/Flagship"),
+                getItem("Button Phone", "showProducts/showItems/Button Phone"),
+                getItem("Smart Phones", "showProducts/showItems/Flagship"),
               ]),
               getItem("Tablets", "sub6", null, [
-                getItem("Galaxy Tab S series", "showProducts/Galaxy Tab S"),
-                getItem("Galaxy Tab A series", "showProducts/Galaxy Tab A"),
+                getItem("Galaxy Tab S series", "showProducts/showItems/Galaxy Tab S"),
+                getItem("Galaxy Tab A series", "showProducts/showItems/Galaxy Tab A"),
               ]),
-              getItem("Galaxy Watch", "showProducts/Galaxy Watch"),
+              getItem("Galaxy Watch", "showProducts/showItems/Galaxy Watch"),
             ]),
 
             // Xiaomi
             getItem("Xiaomi", "sub7", <img className="h-6 ms-4" src={xiaomiLogo} alt="" />, [
-              getItem("Mi Smartphones", "showProducts/Mi Smartphones"),
-              getItem("Mi TV", "showProducts/Mi TV Series"),
-              getItem("Mi Band", "showProducts/Mi Band")
+              getItem("Mi Smartphones", "showProducts/showItems/Mi Smartphones"),
+              getItem("Mi TV", "showProducts/showItems/Mi TV Series"),
+              getItem("Mi Band", "showProducts/showItems/Mi Band")
             ]),
           ]}
         />

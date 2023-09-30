@@ -9,7 +9,8 @@ import navLogo from "../../assets/Logo/navLogo.png";
 import { Drawer, Input } from "antd";
 import useCart from "../../hooks/useCart";
 import AllCategory from "./AllCategory/AllCategory";
-import { useState } from "react";
+import { useEffect, useState } from "react";
+import { getCartDataFromLS } from "../../utilities/getCartDataFromLS";
 const { Search } = Input;
 const onSearch = (value) => console.log(value);
 
@@ -29,6 +30,11 @@ const Navbar = () => {
     setOpen(false);
   };
 
+
+  useEffect(() => {
+    const cartIds = getCartDataFromLS()
+  console.log(cartIds);
+  },[])
   return (
     <div className="sticky top-0 z-20">
       {/* mobile */}
