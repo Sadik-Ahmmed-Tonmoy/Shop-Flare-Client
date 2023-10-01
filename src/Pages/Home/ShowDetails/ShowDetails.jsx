@@ -22,7 +22,7 @@ const ShowDetails = () => {
     sub_details,
   } = product;
   useEffect(() => {
-    axios.get(`http://localhost:5000/showDetails/${id}`).then((response) => {
+    axios.get(`http://localhost:5000/singleProduct/${id}`).then((response) => {
       setProduct(response.data);
     });
   }, [id]);

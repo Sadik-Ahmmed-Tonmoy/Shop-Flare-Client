@@ -6,11 +6,12 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 import navLogo from "../../assets/Logo/navLogo.png";
-import { Drawer, Input } from "antd";
-import useCart from "../../hooks/useCart";
+import { Input } from "antd";
 import AllCategory from "./AllCategory/AllCategory";
-import { useEffect, useState } from "react";
-import { getCartDataFromLS } from "../../utilities/getCartDataFromLS";
+import CartFromLS from "../../components/CartFromLS/CartFromLS";
+// import { useEffect, useState } from "react";
+// import { getCartDataFromLS } from "../../utilities/getCartDataFromLS";
+// import axios from "axios";
 const { Search } = Input;
 const onSearch = (value) => console.log(value);
 
@@ -20,21 +21,6 @@ const Navbar = () => {
   const drones = ["DJI"];
   const accessories = ["Headphones", "Chargers", "Data Cables"];
 
-  const [cart] = useCart();
-
-  const [open, setOpen] = useState(false);
-  const showDrawer = () => {
-    setOpen(true);
-  };
-  const onClose = () => {
-    setOpen(false);
-  };
-
-
-  useEffect(() => {
-    const cartIds = getCartDataFromLS()
-  console.log(cartIds);
-  },[])
   return (
     <div className="sticky top-0 z-20">
       {/* mobile */}
@@ -94,47 +80,9 @@ const Navbar = () => {
                 </div>
               </div>
             </Link>
-            <div className="dropdown dropdown-end mx-1 z-10">
-              <label tabIndex={0} className="btn btn-ghost btn-circle">
-                <div className="indicator">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    className="h-8 w-8"
-                    fill="none"
-                    viewBox="0 0 24 24"
-                    stroke="currentColor"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth="2"
-                      d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-                    />
-                  </svg>
-                  <span className="badge badge-sm indicator-item">
-                    {cart?.length}
-                  </span>
-                </div>
-              </label>
-              <div
-                tabIndex={0}
-                className="mt-3 z-[1] card card-compact dropdown-content w-52 bg-white shadow-2xl"
-              >
-                <div className="card-body">
-                  <span className="font-bold text-lg text-black">
-                    Quantity: {cart?.length}
-                  </span>
-                  <span className="font-extrabold text-black">
-                    Subtotal: ${"roundedTotal"}
-                  </span>
-                  <div className="card-actions">
-                    <Link to="/dashboard/myCart">
-                      <button className="green-btn">View cart</button>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
+            {/* cart with drawer */}
+<CartFromLS/>
+              {/* cart with drawer */}
           </div>
         </div>
       </div>
@@ -169,42 +117,7 @@ const Navbar = () => {
                 </div>
               </Link>
               {/* cart with drawer */}
-              <div
-                onClick={showDrawer}
-                className="dropdown dropdown-end mx-6 z-10"
-              >
-                <label tabIndex={0} className="btn btn-ghost btn-circle">
-                  <div className="indicator">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-8 w-8"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
-                      />
-                    </svg>
-                    <span className="badge badge-sm indicator-item">
-                      {cart?.length}
-                    </span>
-                  </div>
-                </label>
-              </div>
-              <Drawer
-                title="Basic Drawer"
-                placement="right"
-                onClose={onClose}
-                open={open}
-              >
-                <p>Some contents...</p>
-                <p>Some contents...</p>
-                <p>Some contents...</p>
-              </Drawer>
+<CartFromLS/>
               {/* cart with drawer */}
             </div>
           </div>
@@ -226,22 +139,10 @@ const Navbar = () => {
             <Link to={"/"}>
               <span className="flex items-center mt-2 font-semibold">Home</span>
             </Link>
-            <DropDownBtn
-              title={"Phone"}
-              items={phones}
-            />
-            <DropDownBtn
-              title={"Laptop"}
-              items={laptop}
-            />
-            <DropDownBtn
-              title={"Drone"}
-              items={drones}
-            />
-            <DropDownBtn
-              title={"Accessories"}
-              items={accessories}
-            />
+            <DropDownBtn title={"Phone"} items={phones} />
+            <DropDownBtn title={"Laptop"} items={laptop} />
+            <DropDownBtn title={"Drone"} items={drones} />
+            <DropDownBtn title={"Accessories"} items={accessories} />
           </div>
         </div>
       </div>
