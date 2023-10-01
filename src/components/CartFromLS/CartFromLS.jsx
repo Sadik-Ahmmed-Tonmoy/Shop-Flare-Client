@@ -75,9 +75,11 @@ const CartFromLS = () => {
                 d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
               />
             </svg>
-            <span className="badge badge-sm indicator-item">
-              {products?.length}
-            </span>
+           {products?.length > 0 &&
+             <span className="badge badge-sm indicator-item">
+             {products?.length}
+           </span>
+           }
           </div>
         </label>
       </div>
@@ -93,9 +95,12 @@ const CartFromLS = () => {
             <h3>Subtotal</h3>
             <p>${totalPrice}</p>
           </div>
-          <button className="w-full border rounded-lg mt-3 btn-outline p-2 hover:bg-orange-400 text-orange-400 bg-blue-500 hover:text-blue-500 font-bold">Checkout</button>
+          <button className="w-full border rounded-lg mt-3 btn-outline p-2 hover:bg-orange-400 text-orange-400 bg-blue-500 hover:text-blue-500 font-bold">
+            Checkout
+          </button>
+          <div className="border border-slate-400 h-0 my-4"></div>
         </div>
-        <div className="border border-slate-400 h-0 my-4"></div>
+
         {isLoading && <progress className="progress w-56"></progress>}
         {products.map((product) => (
           <>
@@ -104,7 +109,7 @@ const CartFromLS = () => {
                 <img src={product?.image1} alt="" />
               </div>
               <div className="ms-3 w-full">
-                <div className="flex justify-between items-center w-full mb-6">
+                <div className="flex justify-between items-center w-full mb- md:mb-8">
                   <p className="text-lg font-semibold text-slate-700">
                     {product?.name}
                   </p>
